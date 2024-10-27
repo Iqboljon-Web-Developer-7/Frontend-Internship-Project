@@ -10,5 +10,5 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  position: static;
+  position: static !important;
 }
