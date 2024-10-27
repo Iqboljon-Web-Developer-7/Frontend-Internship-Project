@@ -1,0 +1,43 @@
+@use "./font" as f;
+@use "../util" as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: f.$font !important;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding-inline: 1%;
+  max-width: rem(1192);
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-column {
+  flex-direction: column;
+}
+img,
+video {
+  width: 100%;
+  height: 100%;
+}
+a,
+a:visited,
+a:active {
+  color: unset;
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  list-style: none;
+}

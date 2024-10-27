@@ -1,0 +1,14 @@
+.MuiInputBase-root {
+  .MuiSelect-select {
+    color: var(--secondary);
+    font-weight: 500;
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    font-size: 1rem;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-radius: 1.75rem;
+    border-color: var(--grey);
+    border-radius: 1rem;
+  }
+}

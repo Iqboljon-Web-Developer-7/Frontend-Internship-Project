@@ -1,0 +1,20 @@
+.bent-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.curved-text {
+  position: relative;
+}
+
+.curved-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.1rem; /* Adjust this value to move the line closer or farther from the text */
+  height: 1rem;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="10"><path d="M0 10 Q50 0 100 10" stroke="%230955a1" stroke-width="2" fill="transparent"/></svg>')
+    no-repeat;
+  background-size: 100% 100%;
+}
